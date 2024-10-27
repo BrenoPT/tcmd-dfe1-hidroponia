@@ -1,0 +1,171 @@
+* {
+    font-family: "Gabarito", sans-serif;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #287B32, #63CD6F);
+}
+
+h2 {
+    color: #121113;
+}
+
+h1 {
+    color: #F9F8F8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    text-shadow: 0px 0px 10px #121113;
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+}
+
+p.texto-inicio,
+p.texto-sobre,
+p.texto-beneficios {
+    font-size: 16px;
+    color: #F9F8F8;
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+    word-spacing: 0.2rem;
+    font-weight: 400;
+}
+
+p.texto-inicio {
+    width: 90rem;
+    text-align: center;
+    position: absolute;
+    margin-top: 2rem;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p.texto-sobre {
+    width: 40rem;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+p.texto-beneficios {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 4rem;
+    font-weight: 600;
+}
+
+footer {
+    margin-inline: 20rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+p.fonte {
+    font-size: 14px;
+    color: #F9F8F8;
+    font-weight: 400;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    width: 70%;
+}
+
+li {
+    margin-top: 1rem;
+    background-color: #F9F8F8;
+    font-size: 16px;
+    color: #121113;
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+    word-spacing: 0.2rem;
+    font-weight: 400;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+img.home-image {
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+img.sobre-image {
+    height: 100svh;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+img.logo {
+    width: 20rem;
+}
+
+header {
+    background-color: #F9F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+div.main {
+    text-align: center;
+}
+
+div.beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.image-wrapper {
+    position: relative;
+    color: white;
+}
+
+div.graph-wrapper {
+    display: flex;
+    margin: 1rem;
+    justify-content: space-around;
+}
+
+div.graph-wrapper img {
+    width: 45%;
+    margin: 1rem;
+}
+
+button.saiba-mais {
+    font-size: 20px;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    color: #F9F8F8;
+    background-color: #4464AD;
+    border-width: 0;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    user-select: none;
+    transition: all 0.5s;
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+}
+
+button.saiba-mais:hover {
+    height: 60px;
+    width: 180px;
+}
+
+a {
+    text-decoration: none;
+}
